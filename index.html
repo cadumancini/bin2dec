@@ -4,12 +4,14 @@
   </head>
   <body>
     <h1>Binary to Decimal Converter</h1>
+    <p id="error" style="visibility: hidden;">Error</p>
     Binary Number:
-    <input type="text" name="binNumber" value="" placeholder="Enter 0 or 1" maxlength="8"/>
+    <input type="text" id="binNumber" value="" placeholder="Enter 0 or 1" maxlength="8"/>
     <br/>
-    <button>Convert</button>
+    <button onclick="bin2Dec()">Convert</button>
     <br/>
     Decimal Number:
-    <input type="text" name="decNumber" value=""/>
+    <input type="text" id="decNumber" value=""/>
   </body>
+  <script src="index.js"></script>
 </html>
