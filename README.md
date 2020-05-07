@@ -2,7 +2,9 @@
 
 Binary to Decimal number converter
 
-Idea from [here](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md)
+Demo: https://cadumancini.github.io/bin2dec/
+
+Idea from [here](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md).
 
 Binary is the number system all digital computers are based on.
 Therefore it's important for developers to understand binary, or base 2,
