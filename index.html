@@ -1,17 +1,22 @@
 <html>
   <head>
     <title>Bin2Dec</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
     <h1>Binary to Decimal Converter</h1>
-    <p id="error" style="visibility: hidden;">Error</p>
-    Binary Number:
-    <input type="text" id="binNumber" value="" placeholder="Enter 0 or 1"/>
-    <br/>
-    <button onclick="bin2Dec()">Convert</button>
-    <br/>
-    Decimal Number:
-    <input type="text" id="decNumber" value=""/>
+    <p id="error">Error</p>
+    <div class="converter">
+      Binary Input: <br/>
+      <input type="text" id="binNumber" value="" placeholder="Enter 0 or 1"/>
+      <button onclick="bin2Dec()">Convert</button>
+      <br/>
+      Decimal Output:<br/>
+      <input type="text" id="decNumber" value=""/>
+    </div>
+    <div class="footer">
+      <a href="https://github.com/cadumancini/bin2dec">Source Code</a>
+    </div>
   </body>
   <script src="index.js"></script>
 </html>
